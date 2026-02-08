@@ -75,4 +75,5 @@ with open("data_mahasiswa.txt", "r", encoding="utf-8") as file:
         }
 
 print("=== data mahasiswa dlm dictionary ===")
+
 print(data_dict)
