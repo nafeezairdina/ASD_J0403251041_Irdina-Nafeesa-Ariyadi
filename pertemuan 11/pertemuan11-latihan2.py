@@ -8,11 +8,7 @@
 # latihan 2:  Studi Kasus DFS (Eksplorasi Jalur) #
 #================================================#
 
-#=========================================#
-# Implementasi DFS (Depth-First Search)   #
-#=========================================#
-
-# representasi graph - jalur eksplorasi
+# representasi graph
 graph = { 
     'A': ['B', 'C'], 
     'B': ['D', 'E'], 
@@ -73,7 +69,6 @@ cabang (path) mana yang akan dieksplorasi terlebih dahulu oleh DFS
 3. perbandingan DFS vs BFS pada graph yang sama:
 DFS output : A B D E C F -> masuk sedalam mungkin per cabang (rekursi/stack)
 BFS output : A B C D E F -> menelusuri semua neighbor per level (queue)
-
 - perbedaan utama berdasarkan materi modul:
 a. struktur data yang digunakan:
 DFS -> Stack / rekursi dengan prinsip LIFO (Last In First Out)
