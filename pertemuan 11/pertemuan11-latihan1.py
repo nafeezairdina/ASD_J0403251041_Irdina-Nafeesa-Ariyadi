@@ -11,7 +11,7 @@
 # struktur data untuk membuat antrian, kita gunakan dari library collections bawaan python
 from collections import deque
 
-# representasi graph - hubungan antar lokasi
+# representasi graph 
 graph = { 
     'Rumah': ['Sekolah', 'Toko'], 
     'Sekolah': ['Perpustakaan'], 
